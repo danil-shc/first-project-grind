@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Кондитерский дом</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_name=arrow_back_2">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,15 +18,16 @@
         <h4 class="first_block-subtitle">Подарок, который точно растрогает</h4>
         <p class="text first_block-text_before_buttons">Оцените разные стили:</p>
         <div class="first_block-buttons">
-          <button class="first_block-button-white text">Слушать
-            <img src="img/Frame 35.svg" alt="стрелка">
-          </button>
-          <button class="first_block-button-opacity text">Следующий
-            <img src="img/Frame 34.svg" alt="стрелка">
-          </button>
+          <a class="first_block-button-opacity text">Слушать
+            <span class="material-symbols-outlined first_block-button-opacity-left-arrow">arrow_back_2</span>
+          </a>
+          <a class="first_block-button-opacity text">Следующий
+            <span class="material-symbols-outlined">keyboard_arrow_right
+            </span>
+          </a>
         </div>
         <h3 class="first_block-personal-text">Новый год</h3>
-        <button class="first_block-button-main text">Заказать поздравление</button>
+        <a class="first_block-button-main text">Заказать поздравление</a>
       </div>
     </div>
   </section>
@@ -34,18 +37,38 @@
         <div class="reviews-header">
           <h3 class="chapter reviews-header-text">Видео от наших клиентов</h3>
           <div class="reviews-header-arrows">
-            <img class="reviews-header-arrow1" src="img/Arrow 4.png" alt="стрелка">
-            <img class="reviews-header-arrow2" src="img/Arrow 3.png" alt="стрелка">
+            <svg class="reviews-header-arrow" width="45" height="16" viewBox="0 0 45 16">
+              <path
+                d="M0.292893 8.70711C-0.0976311 8.31658 -0.0976311 7.68342 0.292893 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70711ZM45 8V9H1V8V7H45V8Z"
+                fill="currentColor" />
+            </svg>
+            <svg class="reviews-header-arrow" width="45" height="16" viewBox="0 0 45 16">
+              <path
+                d="M44.7071 8.70711C45.0976 8.31658 45.0976 7.68342 44.7071 7.29289L38.3431 0.928932C37.9526 0.538408 37.3195 0.538408 36.9289 0.928932C36.5384 1.31946 36.5384 1.95262 36.9289 2.34315L42.5858 8L36.9289 13.6569C36.5384 14.0474 36.5384 14.6805 36.9289 15.0711C37.3195 15.4616 37.9526 15.4616 38.3431 15.0711L44.7071 8.70711ZM0 8V9H44V8V7H0V8Z"
+                fill="currentColor" />
+            </svg>
           </div>
         </div>
         <div class="container-reviews-scroll">
           <div class="reviews-scroll">
-            <img class="reviews-scroll-video" src="img/Card1.png" alt="review">
-            <img class="reviews-scroll-video" src="img/Card2.png" alt="review">
-            <img class="reviews-scroll-video reviews-scroll-video-780px-hidden" src="img/Card3.png" alt="review">
-            <img class="reviews-scroll-video" src="img/Card4.png" alt="review">
-            <img class="reviews-scroll-video reviews-scroll-video-980px-hidden" src="img/Card5.png" alt="review">
-            <img class="reviews-scroll-video-half" src="img/Card6.png" alt="rewiev">
+            <div class="reviews-scroll-video">
+              <img class="reviews-scroll-video-img" src="img/Card1.png" alt="card">
+            </div>
+            <div class="reviews-scroll-video">
+              <img class="reviews-scroll-video-img" src="img/Card2.png" alt="card">
+            </div>
+            <div class="reviews-scroll-video reviews-scroll-video-780px-hidden">
+              <img class="reviews-scroll-video-img" src="img/Card3.png" alt="card">
+            </div>
+            <div class="reviews-scroll-video">
+              <img class="reviews-scroll-video-img" src="img/Card4.png" alt="card">
+            </div>
+            <div class="reviews-scroll-video reviews-scroll-video-980px-hidden">
+              <img class="reviews-scroll-video-img" src="img/Card5.png" alt="card">
+            </div>
+            <div class="reviews-scroll-video">
+              <img class="reviews-scroll-video-img" src="img/Card1.png" alt="card">
+            </div>
           </div>
         </div>
       </div>
@@ -63,7 +86,7 @@
               <li class="banner_list_elem text">Искренность в каждой ноте заложенная вашими чувствами</li>
             </ul>
             <div class="banner_pay-form">
-              <button class="banner_pay-form-button text">Заказать</button>
+              <a class="banner_pay-form-button text">Заказать</a>
               <p class="button_pay-form-text add-text">*Оплачиваете только понравившийся трек</p>
             </div>
           </div>
@@ -76,27 +99,108 @@
         <div class="tariffs-header">
           <h3 class="chapter tariffs-header-text">Выберите свой вариант</h3>
           <div class="tarrifs-header-arrows">
-            <img class="tarrifs-header-arrow1" src="img/Arrow 4.png" alt="стрелка">
-            <img class="tarrifs-header-arrow2" src="img/Arrow 3.png" alt="стрелка">
+            <svg class="tarrifs-header-arrow" width="45" height="16" viewBox="0 0 45 16">
+              <path
+                d="M0.292893 8.70711C-0.0976311 8.31658 -0.0976311 7.68342 0.292893 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70711ZM45 8V9H1V8V7H45V8Z"
+                fill="currentColor" />
+            </svg>
+            <svg class="tarrifs-header-arrow" width="45" height="16" viewBox="0 0 45 16">
+              <path
+                d="M44.7071 8.70711C45.0976 8.31658 45.0976 7.68342 44.7071 7.29289L38.3431 0.928932C37.9526 0.538408 37.3195 0.538408 36.9289 0.928932C36.5384 1.31946 36.5384 1.95262 36.9289 2.34315L42.5858 8L36.9289 13.6569C36.5384 14.0474 36.5384 14.6805 36.9289 15.0711C37.3195 15.4616 37.9526 15.4616 38.3431 15.0711L44.7071 8.70711ZM0 8V9H44V8V7H0V8Z"
+                fill="currentColor" />
+            </svg>
           </div>
         </div>
         <div class="container-tariffs-scroll">
           <div class="tariffs-scroll">
-            <img class="tariffs-scroll-card tariffs-scroll-card-maxi-780 tariffs-scroll-card-maxi-380"
-              src="img/maxi.png" alt="maxi">
-            <img class="tariffs-scroll-card tariffs-scroll-card-midl-780 tariffs-scroll-card-midl-380"
-              src="img/midl.png" alt="midl">
-            <img class="tariffs-scroll-half-card" src="img/mini.png" alt="mini">
-            <img class="tariffs-scroll-card tariffs-scroll-card-hidden-on-desktop tariffs-scroll-card-mini-380"
-              src="img/minifull.png" alt="mini">
-            <img class="tariffs-scroll-card tariffs-scroll-card-hidden-on-desktop tariffs-scroll-card-minip-380"
-              src="img/mini+.png" alt="mini+">
-            <img class="tariffs-scroll-card tariffs-scroll-card-hidden-on-desktop tariffs-scroll-card-minipp-380"
-              src="img/mini++.png" alt="mini++">
+            <div class="tariffs-scroll-card">
+              <div class="tariffs-scroll-card-content">
+                <h3 class="tariffs-scroll-card-title title">MAXI</h3>
+                <ul class="tariffs-scroll-card-list">
+                  <li class="text">Авторская песня до 4-х минут</li>
+                  <li class="text">Текст песни</li>
+                  <li class="tariffs-scroll-card-list-item text">Музыка (раздельно от слов)</li>
+                </ul>
+                <div class="tariffs-scroll-card-block">
+                  <div class="tariffs-scroll-card-block-price">
+                    <p class="tariffs-scroll-card-block-old-price add-text">9 990 ₽</p>
+                    <p class="tariffs-scroll-card-block-new-price chapter">7000 ₽</p>
+                  </div>
+                  <a class="tariffs-scroll-card-block-button text">Выбрать</a>
+                </div>
+              </div>
+              <img class="tariffs-scroll-card-img" src="img/tariffsinner.png" alt="фото">
+            </div>
+            <div class="tariffs-scroll-card">
+              <div class="tariffs-scroll-card-content">
+                <h3 class="tariffs-scroll-card-title title">MIDL</h3>
+                <ul class="tariffs-scroll-card-list">
+                  <li class="text">Авторская песня до 4-х минут</li>
+                </ul>
+                <div class="tariffs-scroll-card-block">
+                  <div class="tariffs-scroll-card-block-price">
+                    <p class="tariffs-scroll-card-block-old-price add-text">6 990 ₽</p>
+                    <p class="tariffs-scroll-card-block-new-price chapter">5000 ₽</p>
+                  </div>
+                  <a class="tariffs-scroll-card-block-button text">Выбрать</a>
+                </div>
+              </div>
+              <img class="tariffs-scroll-card-img" src="img/midl.png" alt="фото">
+            </div>
+            <div class="tariffs-scroll-card">
+              <div class="tariffs-scroll-card-content">
+                <h3 class="tariffs-scroll-card-title title">MINI</h3>
+                <ul class="tariffs-scroll-card-list">
+                  <li class="text">Авторская песня до 4-х минут</li>
+                  <li class="text">Бенто-торт 500гр</li>
+                </ul>
+                <div class="tariffs-scroll-card-block">
+                  <div class="tariffs-scroll-card-block-price">
+                    <p class="tariffs-scroll-card-block-old-price add-text">4 990 ₽</p>
+                    <p class="tariffs-scroll-card-block-new-price chapter">2000 ₽</p>
+                  </div>
+                  <a class="tariffs-scroll-card-block-button text">Выбрать</a>
+                </div>
+              </div>
+              <img class="tariffs-scroll-card-img" src="img/mini.png" alt="фото">
+            </div>
+            <div class="tariffs-scroll-card">
+              <div class="tariffs-scroll-card-content">
+                <h3 class="tariffs-scroll-card-title title">MINI+</h3>
+                <ul class="tariffs-scroll-card-list">
+                  <li class="text">Авторская песня до 4-х минут</li>
+                  <li class="text">Торт от 5кг</li>
+                </ul>
+                <div class="tariffs-scroll-card-block">
+                  <div class="tariffs-scroll-card-block-price">
+                    <p class="tariffs-scroll-card-block-old-price add-text">5 000 ₽</p>
+                    <p class="tariffs-scroll-card-block-new-price chapter">1000 ₽</p>
+                  </div>
+                  <a class="tariffs-scroll-card-block-button text">Выбрать</a>
+                </div>
+              </div>
+              <img class="tariffs-scroll-card-img" src="img/mini+.png" alt="фото">
+            </div>
+            <div class="tariffs-scroll-card">
+              <div class="tariffs-scroll-card-content">
+                <h3 class="tariffs-scroll-card-title title">MINI++</h3>
+                <ul class="tariffs-scroll-card-list">
+                  <li class="text">Авторская песня до 4-х минут</li>
+                  <li class="text">Торт от 5кг</li>
+                </ul>
+                <div class="tariffs-scroll-card-block">
+                  <div class="tariffs-scroll-card-block-price">
+                    <p class="tariffs-scroll-card-block-old-price add-text">5 000 ₽</p>
+                    <p class="tariffs-scroll-card-block-new-price chapter">0 ₽</p>
+                  </div>
+                  <a class="tariffs-scroll-card-block-button text">Выбрать</a>
+                </div>
+              </div>
+              <img class="tariffs-scroll-card-img" src="img/mini++.png" alt="фото">
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
   <section class="text-chapter">
@@ -126,8 +230,8 @@
           <p class="text-chapter-footer-lower text">Всегда рады вам и надеемся на приятное сотрудничество)</p>
         </div>
         <div class="text-chapter-footer-buttons">
-          <button class="text-chapter-footer-button1 text">Заказать звонок</button>
-          <button class="text-chapter-footer-button2 text">+7 4012 33-55-18</button>
+          <a class="text-chapter-footer-button1 text">Заказать звонок</a>
+          <a class="text-chapter-footer-button2 text">+7 4012 33-55-18</a>
         </div>
       </div>
     </div>
@@ -144,11 +248,12 @@
         </div>
         <div class="questions_main">
           <div class="questions_main-card">
-            <div class="questions_main-card-header">
+            <input type="checkbox" id="q1" class="questions-toggle">
+            <label class="questions_main-card-header" for="q1">
               <p class="questions_main-card-title text">Сколько времени занимает создание песни с момента заказа до
                 готовности?</p>
-              <img class="questions_main-card-ico" src="img/close.svg" alt="close">
-            </div>
+              <img class="questions_main-card-ico" src="img/keyboard_arrow_down.svg" alt="close">
+            </label>
             <div class="questions_main-card-text text">
               Создание песни с момента заказа до полной готовности обычно занимает от одной до трёх недель. Срок зависит
               от ряда факторов:<br>— Сложность проекта (текст, музыка, вокальная обработка).<br>— Индивидуальные
@@ -158,34 +263,66 @@
             </div>
           </div>
           <div class="questions_main-card questions_main-card card-780px-height75 card-380px-height125">
-            <div class="questions_main-card-header">
+            <input type="checkbox" id="q2" class="questions-toggle">
+            <label class="questions_main-card-header" for="q2">
               <p class="questions_main-card-title text">Доступны ли дополнительные опции, такие как музыкальное
                 сопровождение или клипы?</p>
               <img class="questions_main-card-ico" src="img/keyboard_arrow_down.svg" alt="close">
+            </label>
+            <div class="questions_main-card-text text">
+              Создание песни с момента заказа до полной готовности обычно занимает от одной до трёх недель. Срок зависит
+              от ряда факторов:<br>— Сложность проекта (текст, музыка, вокальная обработка).<br>— Индивидуальные
+              пожелания заказчика.<br>— Наличие готовых материалов (если клиент предоставляет готовый текст или
+              музыку).<br>Мы понимаем важность сроков и стараемся уложиться в обозначенное время, соблюдая высокое
+              качество исполнения. Вы можете обсудить сроки подробнее с нашим менеджером при оформлении заказа.
             </div>
           </div>
           <div class="questions_main-card questions_main-card card-780px-height75 card-380px-height75">
-            <div class="questions_main-card-header">
+            <input type="checkbox" id="q3" class="questions-toggle">
+            <label class="questions_main-card-header" for="q3">
               <p class="questions_main-card-title text">У вас есть портфолио работ, которое можно посмотреть?</p>
               <img class="questions_main-card-ico" src="img/keyboard_arrow_down.svg" alt="close">
+            </label>
+            <div class="questions_main-card-text text">
+              Создание песни с момента заказа до полной готовности обычно занимает от одной до трёх недель. Срок зависит
+              от ряда факторов:<br>— Сложность проекта (текст, музыка, вокальная обработка).<br>— Индивидуальные
+              пожелания заказчика.<br>— Наличие готовых материалов (если клиент предоставляет готовый текст или
+              музыку).<br>Мы понимаем важность сроков и стараемся уложиться в обозначенное время, соблюдая высокое
+              качество исполнения. Вы можете обсудить сроки подробнее с нашим менеджером при оформлении заказа.
             </div>
           </div>
           <div class="questions_main-card card-780px-height58 card-380px-height75">
-            <div class="questions_main-card-header">
+            <input type="checkbox" id="q4" class="questions-toggle">
+            <label class="questions_main-card-header" for="q4">
               <p class="questions_main-card-title text">Кто владеет правами на созданные вами песни?</p>
               <img class="questions_main-card-ico" src="img/keyboard_arrow_down.svg" alt="close">
+            </label>
+            <div class="questions_main-card-text text">
+              Создание песни с момента заказа до полной готовности обычно занимает от одной до трёх недель. Срок зависит
+              от ряда факторов:<br>— Сложность проекта (текст, музыка, вокальная обработка).<br>— Индивидуальные
+              пожелания заказчика.<br>— Наличие готовых материалов (если клиент предоставляет готовый текст или
+              музыку).<br>Мы понимаем важность сроков и стараемся уложиться в обозначенное время, соблюдая высокое
+              качество исполнения. Вы можете обсудить сроки подробнее с нашим менеджером при оформлении заказа.
             </div>
           </div>
           <div class="questions_main-card questions_main-card card-780px-height75 card-380px-height125">
-            <div class="questions_main-card-header">
+            <input type="checkbox" id="q5" class="questions-toggle">
+            <label class="questions_main-card-header" for="q5">
               <p class="questions_main-card-title text">Работают ли ваши авторы индивидуально над каждым проектом или
                 используются шаблоны?</p>
               <img class="questions_main-card-ico" src="img/keyboard_arrow_down.svg" alt="close">
+            </label>
+            <div class="questions_main-card-text text">
+              Создание песни с момента заказа до полной готовности обычно занимает от одной до трёх недель. Срок зависит
+              от ряда факторов:<br>— Сложность проекта (текст, музыка, вокальная обработка).<br>— Индивидуальные
+              пожелания заказчика.<br>— Наличие готовых материалов (если клиент предоставляет готовый текст или
+              музыку).<br>Мы понимаем важность сроков и стараемся уложиться в обозначенное время, соблюдая высокое
+              качество исполнения. Вы можете обсудить сроки подробнее с нашим менеджером при оформлении заказа.
             </div>
           </div>
           <div class="questions-buttons">
-            <button class="questions-button-opacity text">Задать вопрос</button>
-            <button class="questions-button-white text">Показать еще</button>
+            <a class="questions-button-opacity text">Задать вопрос</a>
+            <a class="questions-button-opacity text">Показать еще</a>
           </div>
         </div>
       </div>
