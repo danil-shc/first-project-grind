@@ -348,8 +348,7 @@ body {
   width: 1530px;
   display: flex;
   gap: 28px;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
