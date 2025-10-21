@@ -822,6 +822,7 @@ body {
   background-color: #FF7979;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .tariffs-scroll-card-block-button:hover {
