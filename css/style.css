@@ -244,6 +244,14 @@ body {
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width:420px) {
+  .first_block-button-main {
+    width: 258px;
+    height: 42px;
+    padding: 16px 24px;
+    max-width: 100%;
+  }
+}
 
 @media screen and (max-width: 380px) {
   .first_block {
